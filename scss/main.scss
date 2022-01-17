@@ -108,8 +108,10 @@ main{
     display:grid;
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
+    height: max-content;
     img{
         width:100%;
+        height:50%;
         background-size: cover;
         border: 3px solid #fff;
         &:hover{
@@ -118,7 +120,11 @@ main{
             @include easeOut();
         }
     }
-
+    .item{
+        // height:max-content;
+        overflow-y: auto;
+        height:105%;
+    }
 }
 
 //Contact Page
