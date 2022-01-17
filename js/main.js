@@ -6,6 +6,12 @@ const menuBranding= document.querySelector('.menu-branding');
 const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.nav-item');
 
+// const cursor = document.querySelector('.cursor');
+
+// document.addEventListener('mousemove', e=>{
+//     cursor.setAttribute('style','top: '+(e.pageY - 10)+'px; left: '+(e.pageX - 10)+'px')
+// })
+
 //Set Initial State of the Menu
 
 
